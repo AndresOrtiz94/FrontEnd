@@ -1,0 +1,303 @@
+.colorBlue{
+    color: blue;
+    text-size-adjust: "150px";
+}
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+    padding: 30;
+    margin: 30;
+  }
+  
+  /*Agregamos margenes inferiores a los parrafos*/
+  p {
+    margin-bottom: 30px;
+  }
+
+  header {
+    background: black;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  .mNav{
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+
+  .mNav2{
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .mNav3{
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: gray;
+    text-decoration: none;
+  }
+
+  .hoax{
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background: blue;
+  }
+  .hoaxText{
+      color: white;
+  }
+  .mNav3:hover {
+    background: red;
+  }
+
+  .logo{
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: blue;
+  }
+  .logo:hover{
+      background: white;
+  }
+  
+#contenedor_principal{
+  width:100%;
+  height:100%;
+  position:relative;
+  }
+  .contenedor_imagen_texto{
+  width:500px;
+  height:auto;
+  padding-left: 100px;
+  display:inline-block;
+  vertical-align:top;
+  }
+  .img1{
+  width:100%;
+  height:100%;
+  padding-left: 150px;
+  display:inline;
+  }
+  .text1{
+    width:100%;
+    height:auto;
+    position:relative;
+    display:inline;
+    color: gray;
+    font-family: arial;
+    font-size: 19px;
+  }
+  .textbutton1{
+    width:auto;
+    height:auto;
+    position:relative;
+    display:inline;
+    color: slategrey;
+    background-color: white;
+    border: hidden;
+    cursor: pointer;
+    font-family: arial;
+  }
+  .textSchedule{
+    width:auto;
+    height:auto;
+    position:relative;
+    display:inline;
+    color: darkblue;
+    background-color: white;
+    border: hidden;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: arial;
+  }
+  .marcas{
+    padding-left: 80px;
+  }
+  .textTitle{
+    font-size: 50px;
+    color: darkblue;
+    font-weight: 900;
+    font-family: arial;
+  }
+  .textTitle2{
+    font-size: 50px;
+    color: darkblue;
+    font-weight: 900;
+    font-family: arial;
+    padding-left: 100px;
+  }
+  .text2{
+    width:100%;
+    height:auto;
+    position:relative;
+    display:inline;
+    color: gray;
+    font-family: arial;
+    font-size: 19px;
+  }
+    .text3{
+      width:100%;
+      height:auto;
+      position:relative;
+      display:inline;
+      color: gray;
+      font-family: arial;
+      font-size: 19px;
+    }
+    .text4{
+      color: gray;
+      font-family: arial;
+      font-size: 17px;
+    }
+    #contenedor_principal2{
+      width:100%;
+      height:100%;
+      position:relative;
+      }
+      .contenedor_imagen_texto2{
+      width:230px;
+      height:auto;
+      padding-left: 100px;
+      display:inline-block;
+      vertical-align:top;
+      }
+      #contenedor_principal3{
+        width:100%;
+        height:100%;
+        position:relative;
+        }
+        .contenedor_imagen_texto3{
+        width:400px;
+        height:auto;
+        padding-left: 100px;
+        display:inline-block;
+        vertical-align:top;
+        }
+        .contenedor_imagen_texto3one{
+          width:700px;
+          height:auto;
+          padding-left: 100px;
+          display:inline-block;
+          vertical-align:top;
+          }
+  .img2{
+    width:100%;
+    height:100%;
+    display:inline;
+    }
+    .textCon2{
+      width:100%;
+      height:auto;
+      position:relative;
+      display:inline;
+      color: gray;
+      font-family: arial;
+      font-size: 25px;
+    }
+    .textTitle3{
+      font-size: 43px;
+      color: darkblue;
+      font-weight: 900;
+      font-family: arial;
+    }
+    .select1{
+      color: darkblue;
+      background: transparent;
+     border: none;
+     font-size: 18px;
+     height: 30px;
+     padding: 5px;
+     width: 400px;
+    }
+    #contenedor_principal4{
+      width:100%;
+      height:100%;
+      position:relative;
+      }
+      .contenedor_imagen_texto4{
+      width:500px;
+      height:auto;
+      padding-left: 100px;
+      display:inline-block;
+      vertical-align:top;
+      }
+      .img3{
+        width:100%;
+        height:100%;
+        display:inline;
+        padding-left: 250px;
+        }
+        .textCon3{
+          width:100%;
+          height:auto;
+          position:relative;
+          display:inline;
+          color: gray;
+          font-family: arial;
+          font-size: 19px;
+        }
+        .textTitle4{
+          font-size: 38px;
+          color: darkblue;
+          font-weight: 900;
+          font-family: arial;
+        }
+        #contenedor_principal5{
+          width:100%;
+          height:100%;
+          position:relative;
+          }
+          .contenedor_imagen_texto5{
+          width:100px;
+          height:auto;
+          padding-left: 100px;
+          display:inline-block;
+          vertical-align:top;
+          }
+          .text5{
+            width:100%;
+            height:auto;
+            position:relative;
+            display:inline;
+            color: gray;
+            font-family: arial;
+            font-size: 19px;
+          }
+          .textSubtitle1{
+            font-size: 20px;
+            color: darkblue;
+            font-weight: 900;
+            font-family: arial;
+            position:relative;
+            display:inline;
+          }
+          .textSubtitle2{
+            font-size: 18px;
+            color: darkblue;
+            font-weight: 900;
+            font-family: arial;
+            position:relative;
+            display:inline;
+          }
+          .tel{
+            width:100%;
+            height:auto;
+            position:relative;
+            display:inline;
+            color: gray;
+            font-family: arial;
+            font-size: 19px;
+          }
+          .boton1{
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            background: cadetblue;
+            border: hidden;
+          }
+          .boton1{
+              color: blue;
+          }
+          .boton1:hover {
+            background: white;
+          }
